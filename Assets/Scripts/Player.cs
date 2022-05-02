@@ -115,7 +115,7 @@ public class Player : MonoBehaviour
         if (collision.gameObject.tag == "goal")
         {
 
-            if (PlayerPrefs.GetInt("levelP") >= 2)
+            if (PlayerPrefs.GetInt("levelP") >= 4)
             {
                 PlayerPrefs.SetInt("levelP", 1);
                 SceneManager.LoadScene("Win");
